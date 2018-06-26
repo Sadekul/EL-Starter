@@ -33,7 +33,16 @@
                             <a href="about.html">About</a>
                         </li>
                         <li>
-                            <a href="#">Portfolio</a>
+                           
+                           <!-- Dropdown Trigger -->
+                              <a class='dropdown-trigger' href='#' data-target='dropdown1'>Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+                              <!-- Dropdown Structure -->
+                              <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="privacy.html">Privacy</a></li>
+                                <li><a href="terms.html">Condition</a></li>
+                              </ul>
+                           
                         </li>
                         <li>
                             <a href="blog.html">Blog</a>
@@ -57,7 +66,7 @@
             <a href="about.html">About</a>
         </li>
         <li>
-            <a href="#">Portfolio</a>
+            <a href="#">Pages</a>
         </li>
         <li>
             <a href="blog.html">Blog</a>
@@ -86,6 +95,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
 
                             <a class="waves-effect waves-light btn">Get Started Now</a>
+                            
                         </div>
                     </div>
                 </div>
@@ -471,6 +481,19 @@
         //Sidenav
         const sideNav = document.querySelector('.sidenav');
         M.Sidenav.init(sideNav, {});
+        
+    
+        //Dropdown menu
+       document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.dropdown-trigger');
+            var instances = M.Dropdown.init(elems, options);
+          });
+
+          // Or with jQuery
+
+          $('.dropdown-trigger').dropdown();
+        
+        
     </script>
 
 </body>

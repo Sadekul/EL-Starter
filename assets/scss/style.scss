@@ -150,6 +150,13 @@ h2.center.brown-text img {
                     text-transform: uppercase;
                     font-size: $menu-font;
                     font-weight: 400;
+                    i.fa.fa-angle-down {
+                        font-size: 12px;
+                    }
+                }
+                ul#dropdown1 {
+                    top: 64px !important;
+                    outline: none !important;
                 }
             }
         }
@@ -1972,8 +1979,8 @@ footer.page-footer {
         }
         a {
             position: absolute;
-            bottom: 79px;
-            right: 37px;
+            bottom: 78px;
+            right: 57px;
             border-radius: 50px;
             width: 160px;
             padding: 0px 10px !important;
@@ -1988,7 +1995,9 @@ footer.page-footer {
                    right: 15px;
                 }
             @media #{$tab_device} {
-                   right: 15px;
+                   right: 40px;
+                bottom: 125px;
+                
                 }
             &:hover {
                 background: $hover-bg-color;

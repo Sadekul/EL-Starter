@@ -108,6 +108,11 @@ h2.center.brown-text img {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 400; }
+    .navbar-fixed .nav-wrapper ul li a i.fa.fa-angle-down {
+      font-size: 12px; }
+  .navbar-fixed .nav-wrapper ul li ul#dropdown1 {
+    top: 64px !important;
+    outline: none !important; }
   .navbar-fixed .nav-wrapper .brand-logo img {
     margin-top: 15px; }
   .navbar-fixed .nav-wrapper a.sidenav-trigger {
@@ -1546,8 +1551,8 @@ footer.page-footer {
           margin-left: 20px !important; } }
     .subscribe-area .subscribe-content a {
       position: absolute;
-      bottom: 79px;
-      right: 37px;
+      bottom: 78px;
+      right: 57px;
       border-radius: 50px;
       width: 160px;
       padding: 0px 10px !important;
@@ -1563,7 +1568,8 @@ footer.page-footer {
           right: 15px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .subscribe-area .subscribe-content a {
-          right: 15px; } }
+          right: 40px;
+          bottom: 125px; } }
       .subscribe-area .subscribe-content a:hover {
         background: linear-gradient(to left, #4f0ef4 0%, #00b7fb 100%); }
       .subscribe-area .subscribe-content a i.fas.fa-arrow-right {
