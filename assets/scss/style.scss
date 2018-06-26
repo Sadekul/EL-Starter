@@ -7,11 +7,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
-    @media #{$medium_device} {
-        min-width: 86%;
-    }
-}
+//.container{
+//    @media #{$medium_device} {
+//        width: 86% !important;
+//    }
+//    @media #{$tab_device} {
+//        width: 50%;
+//    }
+//}
 
 body {
     
@@ -370,6 +373,7 @@ h2.center.brown-text img {
 .card.icon-block {
     padding: 40px 20px;
     border-radius: 10px;
+    min-height: 300px;
     p {
         font-size: $text-font;
         font-weight: 300;
@@ -1314,7 +1318,7 @@ footer.page-footer {
             .card-action {
                 height: 130px;
                 @media #{$small_mobile} {
-                    height: 90px;
+                    height: 140px;
                 }
                 @media #{$tab_device} {
                     padding: 16px;
@@ -1394,6 +1398,20 @@ footer.page-footer {
                             }
 
                         }
+                    }
+                }
+                a.waves-effect.waves-light.btn {
+                    float: right;
+                    background: $bg-color;
+                    color: $color-white;
+                    font-size: $text-font;
+                    text-transform: capitalize;
+                    font-weight: 300;
+                    height: 35px;
+                    padding: 0px 15px;
+                    transition: .4s;
+                    &:hover{
+                        background: $hover-bg-color;
                     }
                 }
             }

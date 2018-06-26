@@ -284,7 +284,8 @@ h2.center.brown-text img {
 
 .card.icon-block {
   padding: 40px 20px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  min-height: 300px; }
   .card.icon-block p {
     font-size: 14px;
     font-weight: 300;
@@ -1011,7 +1012,7 @@ footer.page-footer {
       height: 130px; }
       @media (max-width: 767px) {
         .blog-section .single-big-blog .card .card-action {
-          height: 90px; } }
+          height: 140px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .blog-section .single-big-blog .card .card-action {
           padding: 16px; } }
@@ -1079,6 +1080,18 @@ footer.page-footer {
                   font-size: 12px; } }
               .blog-section .single-big-blog .card .card-action .blog-cmnt ul li a:hover {
                 color: #04091e !important; }
+      .blog-section .single-big-blog .card .card-action a.waves-effect.waves-light.btn {
+        float: right;
+        background: linear-gradient(to right, #4f0ef4 0%, #00b7fb 100%);
+        color: #fff;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 300;
+        height: 35px;
+        padding: 0px 15px;
+        transition: .4s; }
+        .blog-section .single-big-blog .card .card-action a.waves-effect.waves-light.btn:hover {
+          background: linear-gradient(to left, #4f0ef4 0%, #00b7fb 100%); }
   .blog-section aside .search-box {
     background: #f9f9ff;
     position: relative;
