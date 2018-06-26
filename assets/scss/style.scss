@@ -7,10 +7,14 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+.container{
+    @media #{$medium_device} {
+        min-width: 86%;
+    }
+}
 
 body {
-    @media #{$medium_device} {}
+    
     @media #{$tab_device} {
         .sidenav {
             top: 64px;
