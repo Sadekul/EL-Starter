@@ -49,6 +49,10 @@ img {
     @media (max-width: 767px) {
       .viewport-right-img img {
         display: none; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .viewport-right-img img {
+        top: 20%;
+        width: 170px; } }
 
 .viewport-content {
   position: absolute;
@@ -57,6 +61,9 @@ img {
   @media (max-width: 767px) {
     .viewport-content {
       top: 5%; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .viewport-content {
+      top: 10%; } }
 
 .offered-bg {
   background: url(../images/service-bg.jpg);
@@ -132,6 +139,9 @@ h2.center.brown-text img {
   @media (max-width: 767px) {
     .viewport-content h1 {
       font-size: 30px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .viewport-content h1 {
+      font-size: 46px; } }
 .viewport-content h4 {
   font-size: 18px;
   font-weight: 300; }
@@ -169,6 +179,9 @@ h2.center.brown-text img {
       font-size: 48px;
       font-weight: 600; }
       @media (max-width: 767px) {
+        .home-page-video .home-video-content .digital-content h2 {
+          font-size: 30px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
         .home-page-video .home-video-content .digital-content h2 {
           font-size: 30px; } }
   .home-page-video .home-video {
@@ -288,6 +301,9 @@ h2.center.brown-text img {
   padding: 40px 20px;
   border-radius: 10px;
   min-height: 300px; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .card.icon-block {
+      min-height: 335px; } }
   .card.icon-block p {
     font-size: 14px;
     font-weight: 300;
@@ -346,6 +362,9 @@ h2.center.brown-text img {
     font-size: 36px;
     font-weight: 100;
     margin-bottom: 0px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .looking .looking-content h2 {
+        margin-top: 0px; } }
   .looking .looking-content h1 {
     font-size: 60px;
     font-weight: 700;
@@ -354,6 +373,9 @@ h2.center.brown-text img {
     @media (max-width: 767px) {
       .looking .looking-content h1 {
         font-size: 40px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .looking .looking-content h1 {
+        font-size: 46px; } }
   .looking .looking-content h4 {
     font-size: 18px;
     font-weight: 300; }
@@ -362,6 +384,9 @@ h2.center.brown-text img {
     font-weight: 300;
     padding-right: 25px; }
     @media (max-width: 767px) {
+      .looking .looking-content p {
+        text-align: justify; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
       .looking .looking-content p {
         text-align: justify; } }
   .looking .looking-content a {
@@ -496,6 +521,9 @@ h2.center.brown-text img {
       font-weight: 300;
       color: #777777;
       margin: 15px 0; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .blog-area .card .card-content p {
+          text-align: justify; } }
 
 footer.page-footer {
   padding: 80px 0;
@@ -694,7 +722,7 @@ footer.page-footer {
       width: 100%; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .we-bealieve .bealive-left {
-      height: 400px; } }
+      height: 355px; } }
 .we-bealieve .bealive-right {
   height: 500px; }
   .we-bealieve .bealive-right .card-panel {
@@ -1115,7 +1143,7 @@ footer.page-footer {
       top: 35px;
       right: 20px;
       font-size: 20px;
-      color: #83b6ff; }
+      color: rgba(0, 0, 255, 0.76); }
   .blog-section aside .aside-client {
     margin-bottom: 30px; }
     .blog-section aside .aside-client .card {
@@ -1150,7 +1178,7 @@ footer.page-footer {
                 .blog-section aside .aside-client .card .card-content ul li a {
                   margin: 0px 5px; } }
               .blog-section aside .aside-client .card .card-content ul li a:hover {
-                color: #83b6ff !important; }
+                color: rgba(0, 0, 255, 0.76) !important; }
   .blog-section aside .post-catgories {
     background: #f9f9ff;
     margin-bottom: 30px; }
@@ -1327,7 +1355,7 @@ footer.page-footer {
         margin-left: 5px; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .prev-next-post .prev-blog .prev-text h4 {
-            font-size: 16px; } }
+            font-size: 14px; } }
   .prev-next-post .next-blog {
     width: 50%;
     float: left; }
@@ -1387,7 +1415,7 @@ footer.page-footer {
         margin-right: 5px; }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .prev-next-post .next-blog .prev-text h4 {
-            font-size: 16px; } }
+            font-size: 14px; } }
 
 .comment-area {
   padding: 50px 0;
