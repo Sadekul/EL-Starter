@@ -15,9 +15,8 @@ body {
 //        width: 50%;
 //    }
 //}
-
 body {
-    
+
     @media #{$tab_device} {
         .sidenav {
             top: 64px;
@@ -29,7 +28,6 @@ body {
         }
     }
 }
-
 
 img {
     width: 100%;
@@ -66,10 +64,7 @@ img {
         width: 100%;
         float: none;
     }
-
-}
-
-.viewport-right-img img {
+    img {
     width: 300px;
     position: absolute;
     top: 30%;
@@ -78,6 +73,8 @@ img {
     @media #{$small_mobile} {
         display: none;
     }
+}
+
 }
 
 .viewport-content {
@@ -99,7 +96,7 @@ img {
     z-index: 0;
     margin-bottom: 200px;
     @media #{$small_mobile} {
-        height: 1070px;
+        height: 1150px;
         margin-bottom: 0px;
     }
     &::after {
@@ -138,7 +135,6 @@ h2.center.brown-text img {
     z-index: 99;
 }
 
-
 // Nav scss
 .navbar-fixed {
     z-index: 9999;
@@ -172,48 +168,51 @@ h2.center.brown-text img {
     }
 }
 
-.viewport-content h2 {
-    font-size: 36px;
-    font-weight: 100;
-    margin-bottom: 0px;
-    @media #{$small_mobile} {
-        font-size: 30px;
+.viewport-content {
+    h2 {
+        font-size: 36px;
+        font-weight: 100;
+        margin-bottom: 0px;
+        @media #{$small_mobile} {
+            font-size: 30px;
+        }
     }
-}
-
-.viewport-content h1 {
-    font-size: 60px;
-    font-weight: 700;
-    margin: 0px;
-    text-transform: $upercase;
-    @media #{$small_mobile} {
-        font-size: 30px;
+    h1 {
+        font-size: 60px;
+        font-weight: 700;
+        margin: 0px;
+        text-transform: $upercase;
+        @media #{$small_mobile} {
+            font-size: 30px;
+        }
     }
-}
-
-.viewport-content h4 {
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.viewport-content p {
-    font-size: $text-font;
-    font-weight: 300;
-    padding-right: 25px;
-    @media #{$small_mobile} {
-        text-align: justify;
+    h4 {
+        font-size: 18px;
+        font-weight: 300;
     }
-}
-
-.viewport-content a {
-    background: $bg-color;
-    border-radius: 20px;
-    margin-top: 20px;
-    text-transform: capitalize;
-    transition: all 1s;
-    &:hover {
-        background: $hover-bg-color;
+    p {
+        font-size: $text-font;
+        font-weight: 300;
+        padding-right: 20%;
+        @media #{$small_mobile} {
+            text-align: justify;
+            padding-right: 0px;
+        }
+        @media #{$tab_device} {
+            padding-right: 0px;
+        }
     }
+    a {
+        background: $bg-color;
+        border-radius: 20px;
+        margin-top: 20px;
+        text-transform: capitalize;
+        transition: all 1s;
+        &:hover {
+            background: $hover-bg-color;
+        }
+    }
+
 }
 
 .home-page-video {
@@ -296,35 +295,35 @@ h2.center.brown-text img {
     }
 }
 
-.digital-content p {
-    font-size: $text-font;
-    font-weight: 300;
-    @media #{$small_mobile} {
-        text-align: justify;
+.digital-content {
+    p {
+        font-size: $text-font;
+        font-weight: 300;
+        @media #{$small_mobile} {
+            text-align: justify;
+        }
     }
-}
-
-.digital-content a {
-    font-size: $text-font;
-    font-weight: 400;
-    border-radius: 20px;
-    transition: .3s;
-    margin-top: 20px;
-    text-transform: capitalize;
-    &:hover {
-        color: #fff !important;
-        background: $bg-color;
+    a {
+        font-size: $text-font;
+        font-weight: 400;
+        border-radius: 20px;
+        transition: .3s;
+        margin-top: 20px;
+        text-transform: capitalize;
+        &:hover {
+            color: #fff !important;
+            background: $bg-color;
+        }
     }
 }
 
 .digital-bg {
     position: relative;
-}
-
-.digital-bg a {
-    position: absolute;
-    top: 30%;
-    left: 0;
+    a {
+        position: absolute;
+        top: 30%;
+        left: 0;
+    }
 }
 
 .digital-bg a.btn-floating.btn-large {
@@ -1080,9 +1079,15 @@ footer.page-footer {
                 span {
                     font-size: 18px;
                     font-weight: 600;
+                    @media #{$tab_device}{
+                        font-size: 14px;
+                    }
                     i {
                         font-size: 30px;
                         margin-right: 5px;
+                        @media #{$tab_device}{
+                            font-size: 24px;
+                        }
                     }
                 }
             }
@@ -1417,7 +1422,7 @@ footer.page-footer {
                     height: 35px;
                     padding: 0px 15px;
                     transition: .4s;
-                    &:hover{
+                    &:hover {
                         background: $hover-bg-color;
                     }
                 }
@@ -1559,14 +1564,14 @@ footer.page-footer {
                             font-weight: 600;
                             margin-bottom: 10px;
                             @media #{$tab_device} {
-                                font-size: 10px;
+                                font-size: 12px;
                             }
                         }
                         p {
                             font-size: $text-font;
                             font-weight: 300;
                             @media #{$tab_device} {
-                                font-size: 9px;
+                                font-size: 11px;
                             }
                             span {
                                 float: right;
@@ -1827,7 +1832,7 @@ footer.page-footer {
                     margin-left: 5px;
                     margin-top: 5px;
                     @media #{$tab_device} {
-                        margin-top: 10px;
+                        margin-top: 0px;
                     }
                 }
             }
@@ -1935,24 +1940,24 @@ footer.page-footer {
         position: relative;
         min-height: 300px;
         background: #f9f9ff;
-          @media #{$small_mobile} {
-                   min-height: 400px;
-                }
-        
-          @media #{$tab_device} {
-                   min-height: 400px;
-                }
+        @media #{$small_mobile} {
+            min-height: 400px;
+        }
+
+        @media #{$tab_device} {
+            min-height: 400px;
+        }
         h2 {
             font-size: 36px;
             font-weight: 600;
             margin: 0;
             text-shadow: 2px 2px 10px #999;
-             @media #{$small_mobile} {
-                   font-size: 30px;
-                }
+            @media #{$small_mobile} {
+                font-size: 30px;
+            }
             @media #{$tab_device} {
-                  font-size: 30px;
-                }
+                font-size: 30px;
+            }
         }
         p {
             margin: 10px 0;
@@ -1969,13 +1974,13 @@ footer.page-footer {
             margin-left: 50px !important;
             padding-left: 10px !important;
             margin-top: 20px;
-             @media #{$small_mobile} {
-                   margin-left: 20px !important;
-                }
+            @media #{$small_mobile} {
+                margin-left: 20px !important;
+            }
             @media #{$tab_device} {
-                   margin-left: 20px !important;
-                }
-            
+                margin-left: 20px !important;
+            }
+
         }
         a {
             position: absolute;
@@ -1991,14 +1996,14 @@ footer.page-footer {
             height: 39px;
             background: $bg-color;
             transition: all .3s;
-             @media #{$small_mobile} {
-                   right: 15px;
-                }
+            @media #{$small_mobile} {
+                right: 15px;
+            }
             @media #{$tab_device} {
-                   right: 40px;
+                right: 40px;
                 bottom: 125px;
-                
-                }
+
+            }
             &:hover {
                 background: $hover-bg-color;
             }
@@ -2015,9 +2020,9 @@ footer.page-footer {
     .single-address {
         text-align: center;
         min-height: 210px;
-         @media #{$tab_device} {
-                   padding: 24px 10px;
-                }
+        @media #{$tab_device} {
+            padding: 24px 10px;
+        }
         h6 {
             font-size: $text-font;
             font-weight: 400;
@@ -2027,16 +2032,16 @@ footer.page-footer {
             font-size: $text-font;
             font-weight: 300;
             color: #777;
-             @media #{$tab_device} {
-                    font-size: $menu-font;
-                }
+            @media #{$tab_device} {
+                font-size: $menu-font;
+            }
         }
-        ul{
-            li{
+        ul {
+            li {
                 font-size: $text-font;
                 color: #777;
                 font-weight: 300;
-                 @media #{$tab_device} {
+                @media #{$tab_device} {
                     font-size: $menu-font;
                 }
             }
