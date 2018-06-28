@@ -1673,4 +1673,373 @@ footer.page-footer {
         .from-area .contact-form .submit-btn a i.fas.fa-arrow-right {
           font-size: 14px; }
 
+.icon-text {
+  padding: 80px 0; }
+
+.element-heading {
+  text-align: center; }
+  .element-heading h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 0; }
+    @media (max-width: 767px) {
+      .element-heading h2 {
+        font-size: 28px; } }
+  .element-heading p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 30px; }
+    @media (max-width: 767px) {
+      .element-heading p {
+        text-align: justify; } }
+
+.element-accordian {
+  padding: 80px 0; }
+  .element-accordian .accordian-one .active .collapsible-header {
+    outline: none !important;
+    background: linear-gradient(to right, #4f0ef4 0%, #00b7fb 100%); }
+    .element-accordian .accordian-one .active .collapsible-header p {
+      color: #fff; }
+  .element-accordian .accordian-one .collapsible-header p {
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    margin: 0; }
+    .element-accordian .accordian-one .collapsible-header p span i.fa.fa-angle-down {
+      float: right !important; }
+  .element-accordian .accordian-one .collapsible-body span {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400; }
+  .element-accordian .accordian-two .collapsible-header {
+    background: none !important; }
+    .element-accordian .accordian-two .collapsible-header p {
+      color: #000 !important; }
+  .element-accordian .accordian-two .active .collapsible-header {
+    background: none !important;
+    border-bottom: 1px solid blue;
+    outline: none !important; }
+
+.element-serve {
+  padding: 80px 0;
+  background: #f9f9ff; }
+  .element-serve .serve-text h3 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 0; }
+    @media (max-width: 767px) {
+      .element-serve .serve-text h3 {
+        font-size: 24px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .element-serve .serve-text h3 {
+        font-size: 26px; } }
+  .element-serve .serve-text p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #777; }
+    @media (max-width: 767px) {
+      .element-serve .serve-text p {
+        text-align: justify; } }
+  .element-serve .serve-btn a {
+    background: linear-gradient(to right, #4f0ef4 0%, #00b7fb 100%);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    height: 45px;
+    width: 170px;
+    line-height: 45px;
+    margin-top: 30px;
+    transition: .4s; }
+    .element-serve .serve-btn a:hover {
+      background: linear-gradient(to left, #4f0ef4 0%, #00b7fb 100%); }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .element-serve .serve-btn {
+      margin-left: -80px; } }
+
+.elemet-button {
+  padding: 80px 0; }
+  .elemet-button .single-btn-group {
+    margin-bottom: 30px; }
+    @media (max-width: 767px) {
+      .elemet-button .single-btn-group {
+        text-align: center; } }
+    .elemet-button .single-btn-group h5 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 30px; }
+    .elemet-button .single-btn-group a {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: capitalize;
+      border-radius: 0px;
+      margin-right: 10px;
+      height: 40px;
+      width: 128px;
+      line-height: 40px; }
+      .elemet-button .single-btn-group a i.fa.fa-arrow-right {
+        font-size: 10px; }
+      @media (max-width: 767px) {
+        .elemet-button .single-btn-group a {
+          margin-bottom: 20px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .elemet-button .single-btn-group a {
+          margin-bottom: 20px; } }
+    .elemet-button .single-btn-group .defoult-btn {
+      background: #f9f9ff;
+      color: #000; }
+    .elemet-button .single-btn-group .primary-bg-btn {
+      background: linear-gradient(to right, #4f0ef4 0%, #00b7fb 100%);
+      text-transform: capitalize;
+      transition: .4s; }
+      .elemet-button .single-btn-group .primary-bg-btn:hover {
+        background: linear-gradient(to left, #4f0ef4 0%, #00b7fb 100%); }
+    .elemet-button .single-btn-group .black-btn {
+      background: #000;
+      transition: .5s; }
+      .elemet-button .single-btn-group .black-btn:hover {
+        background: linear-gradient(to right, #4f0ef4 0%, #00b7fb 100%); }
+    .elemet-button .single-btn-group .desable-btn {
+      background: #f9f9ff;
+      color: #999; }
+    .elemet-button .single-btn-group .defoult-border-btn {
+      border: 1px solid #999;
+      background: #fff;
+      color: #000; }
+    .elemet-button .single-btn-group .primary-btn {
+      color: blue;
+      background: none;
+      border: 1px solid blue; }
+    .elemet-button .single-btn-group .radius-3 {
+      border-radius: 3px; }
+    .elemet-button .single-btn-group .radius-50 {
+      border-radius: 50px; }
+    .elemet-button .single-btn-group .extra-btn {
+      height: 60px;
+      width: 200px;
+      font-size: 24px;
+      line-height: 60px; }
+    .elemet-button .single-btn-group .larg-btn {
+      height: 50px;
+      width: 150px;
+      font-size: 20px;
+      line-height: 50px; }
+    .elemet-button .single-btn-group .normal-btn {
+      height: 40px;
+      width: 120px;
+      font-size: 16px;
+      line-height: 40px; }
+    .elemet-button .single-btn-group .medium-btn {
+      height: 30px;
+      width: 100px;
+      font-size: 14px;
+      line-height: 30px; }
+    .elemet-button .single-btn-group .small-btn {
+      height: 25px;
+      width: 80px;
+      font-size: 12px;
+      line-height: 25px; }
+
+.element-typography {
+  padding: 80px 0; }
+  .element-typography .left-aligned {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    min-height: 200px; }
+    .element-typography .left-aligned h5 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 30px; }
+    .element-typography .left-aligned .aligned-img {
+      width: 30%;
+      float: left; }
+      @media (max-width: 767px) {
+        .element-typography .left-aligned .aligned-img {
+          width: 100%;
+          float: none; } }
+      @media (max-width: 767px) {
+        .element-typography .left-aligned .aligned-img img {
+          width: 100%;
+          height: 200px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .element-typography .left-aligned .aligned-img img {
+          width: 100%;
+          height: 180px; } }
+    .element-typography .left-aligned .aligned-text {
+      width: 70%;
+      float: left; }
+      @media (max-width: 767px) {
+        .element-typography .left-aligned .aligned-text {
+          width: 100%;
+          float: none; } }
+      .element-typography .left-aligned .aligned-text p {
+        margin-left: 8px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #777;
+        text-align: justify; }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .element-typography .left-aligned .aligned-text p {
+            margin-top: 0px; } }
+  .element-typography .right-aligned {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px; }
+    .element-typography .right-aligned .aligned-text {
+      width: 70%;
+      float: left;
+      display: inline-block; }
+      @media (max-width: 767px) {
+        .element-typography .right-aligned .aligned-text {
+          width: 100%;
+          float: none; } }
+      .element-typography .right-aligned .aligned-text p {
+        margin-right: 8px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #777;
+        text-align: justify; }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .element-typography .right-aligned .aligned-text p {
+            margin-top: 0px; } }
+    .element-typography .right-aligned .aligned-img {
+      width: 30%;
+      float: left;
+      display: inline-block; }
+      @media (max-width: 767px) {
+        .element-typography .right-aligned .aligned-img {
+          width: 100%;
+          float: none; } }
+      @media (max-width: 767px) {
+        .element-typography .right-aligned .aligned-img img {
+          width: 100%;
+          height: 200px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .element-typography .right-aligned .aligned-img img {
+          width: 100%;
+          height: 180px; } }
+  .element-typography .typography h5 {
+    font-size: 18px;
+    font-weight: 600; }
+  .element-typography .typography .headin-type {
+    color: #777; }
+    .element-typography .typography .headin-type h1 {
+      font-size: 36px;
+      font-weight: 500; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .element-typography .typography .headin-type h1 {
+          font-size: 26px; } }
+    .element-typography .typography .headin-type h2 {
+      font-size: 30px;
+      font-weight: 500; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .element-typography .typography .headin-type h2 {
+          font-size: 24px; } }
+    .element-typography .typography .headin-type h3 {
+      font-size: 24px;
+      font-weight: 500; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .element-typography .typography .headin-type h3 {
+          font-size: 22px; } }
+    .element-typography .typography .headin-type h4 {
+      font-size: 18px;
+      font-weight: 500; }
+    .element-typography .typography .headin-type h5 {
+      font-size: 16px !important;
+      font-weight: 500; }
+    .element-typography .typography .headin-type h6 {
+      font-size: 14px;
+      font-weight: 500; }
+
+.element-login {
+  padding: 80px 0; }
+  .element-login .login-one {
+    background: url(../images/login-bg.jpg);
+    background-color: aqua;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    padding: 0px 50px; }
+    @media (max-width: 767px) {
+      .element-login .login-one {
+        height: 350px;
+        padding: 0px 20px;
+        margin-bottom: 30px; } }
+    .element-login .login-one h4 {
+      font-size: 24px;
+      font-weight: 300; }
+    .element-login .login-one p {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 20px; }
+    .element-login .login-one a.waves-effect.waves-light.btn {
+      font-size: 14px;
+      font-weight: 600;
+      height: 40px;
+      padding: 0px 30px;
+      border-radius: 0;
+      line-height: 40px;
+      background: linear-gradient(to right, #4f0ef4 0%, #00b7fb 100%);
+      transition: .4s; }
+      .element-login .login-one a.waves-effect.waves-light.btn:hover {
+        background: linear-gradient(to left, #4f0ef4 0%, #00b7fb 100%); }
+  .element-login .card-panel {
+    margin-top: 0px;
+    height: 400px;
+    padding: 0xp 30px; }
+    .element-login .card-panel h4 {
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center; }
+    .element-login .card-panel .input-field {
+      margin: 0; }
+    .element-login .card-panel a.waves-effect.waves-light.btn {
+      font-size: 14px;
+      font-weight: 600;
+      height: 40px;
+      border-radius: 0;
+      line-height: 40px;
+      background: linear-gradient(to right, #4f0ef4 0%, #00b7fb 100%);
+      transition: .4s;
+      display: block;
+      width: 100%;
+      margin-bottom: 20px; }
+      .element-login .card-panel a.waves-effect.waves-light.btn:hover {
+        background: linear-gradient(to left, #4f0ef4 0%, #00b7fb 100%); }
+    .element-login .card-panel a {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: center;
+      display: block; }
+
+.radio-buttons {
+  padding: 80px 0; }
+  .radio-buttons .radio-content h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px; }
+  .radio-buttons .radio-content label input[type="radio"]:active {
+    background: red; }
+  .radio-buttons .radio-content .switch {
+    margin-bottom: 20px; }
+  .radio-buttons .radio-content select.browser-default {
+    background: linear-gradient(to right, #4f0ef4 0%, #00b7fb 100%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500; }
+    .radio-buttons .radio-content select.browser-default option {
+      color: #000; }
+
 /*# sourceMappingURL=style.css.map */

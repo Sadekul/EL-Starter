@@ -32,7 +32,16 @@
                             <a href="about.html">About</a>
                         </li>
                         <li>
-                            <a href="privacy.html">Privacy</a>
+                            <!-- Dropdown Trigger -->
+                            <a class='dropdown-trigger' href='#' data-target='dropdown1'>Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+                            <!-- Dropdown Structure -->
+                            <ul id='dropdown1' class='dropdown-content'>
+                                <li><a href="privacy.html">Privacy</a></li>
+                                <li><a href="terms.html">Condition</a></li>
+                                <li><a href="element.html">Element</a></li>
+                            </ul>
+
                         </li>
                         <li>
                             <a href="blog.html">Blog</a>
@@ -56,14 +65,7 @@
             <a href="about.html">About</a>
         </li>
         <li>
-            <!-- Dropdown Trigger -->
-            <a class='dropdown-trigger' href='#' data-target='dropdown1'>Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-
-            <!-- Dropdown Structure -->
-            <ul id='dropdown1' class='dropdown-content'>
-                <li><a href="privacy.html">Privacy</a></li>
-                <li><a href="terms.html">Condition</a></li>
-            </ul>
+            <a href="privacy.html">Privacy</a>
         </li>
         <li>
             <a href="blog.html">Blog</a>
@@ -214,17 +216,17 @@
         //Sidenav
         const sideNav = document.querySelector('.sidenav');
         M.Sidenav.init(sideNav, {});
-        
-    
+
+
         //Dropdown menu
-       document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.dropdown-trigger');
             var instances = M.Dropdown.init(elems, options);
-          });
+        });
 
-          // Or with jQuery
+        // Or with jQuery
 
-          $('.dropdown-trigger').dropdown();
+        $('.dropdown-trigger').dropdown();
     </script>
 </body>
 
